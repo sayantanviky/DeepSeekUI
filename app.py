@@ -96,7 +96,7 @@ class DeepSeekApp(QWidget):
         self.response_label.setText("Searching...")
 
         # DeepSeek API Configuration using OpenAI SDK
-        DEEPSEEK_API_KEY = "sk-a5bf184029624327a88a5419f9db23c6"  # Replace with your API key
+        DEEPSEEK_API_KEY = "xxxxxxxxx"  # Replace with your API key
         client = openai.OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
         try:
